@@ -1,0 +1,49 @@
+p {
+    color: springgreen;
+}
+
+h1 {
+    font-size: 96px;
+    font-style: italic;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.italic-text {
+    font-style: italic;
+}
+
+#the-title {
+    padding: 10px;
+    border: 2px dashed tomato;
+}
+
+p.bold-text {
+    background-color: blueviolet;
+}
+
+.italic-text.bold-text {
+    text-decoration: underline;
+}
+
+#special-div p {
+    color: dodgerblue;
+}
+
+#special-div > p {
+    background-color: darkkhaki;
+}
+
+#special-div + div {
+    text-transform: uppercase;
+}
+
+#special-div ~ div {
+    background-color: olivedrab;
+}
+
+div, p {
+    font-family: monospace;
+}
