@@ -1,0 +1,20 @@
+html {
+    /* font-family: "Helvetica Neue", Helvetica, sans-serif; */
+    /* font-family: serif; */
+    /* font-family: sans-serif; */
+    /* font-family: monospace; */
+    /* font-family: cursive; */
+    /* font-family: fantasy; */
+    font-family: 'Raleway', sans-serif;
+    color: #812dd9;
+    /* color: #000; */
+    /* color: #fff; */
+    /* color: #a6a6a6; */
+    /* color: rgba(128, 0, 255, 0.5); */
+    /* font-weight: bold; */
+    font-weight: 400;
+    font-style: italic;
+    /* font-size: 24px; */
+    font-size: 2em;
+    padding: 1em;
+}
