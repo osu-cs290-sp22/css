@@ -9,6 +9,10 @@ a, a:hover {
   text-decoration: none;
 }
 
+h1 {
+  color: magenta;
+}
+
 header h1 {
   margin: 5px;
   font-weight: 300;
@@ -37,4 +41,24 @@ header h1 {
 
 .right {
   float: right;
+}
+
+@media (max-width: 640px) {
+  .navitem {
+    display: block;
+  }
+
+  .navitem.right {
+    float: none;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  h1 {
+    font-size: 56px;
+  }
 }
